@@ -1,0 +1,83 @@
+.modalWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #0D2436;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mask {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.modalContainer {
+  width: 90%;
+  max-width: 600px;
+  height: 90%;
+  max-height: 600px;
+  z-index: 2;
+  border: 1px solid #0D2436;
+  border-radius: 0.5rem;
+  background-color: #0D2436;
+  position: relative;
+}
+
+.modalCloseIcon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.modalTitleContainer {
+  height: 4rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+.modalContentContainer {
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modalDescription {
+  width: 100%;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.IconContainer,
+.modalDescriptionContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.thumbsupIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.nomination {
+  line-height: 1.5rem;
+}
