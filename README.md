@@ -4,7 +4,7 @@
   </h1>
 </p>
 
-#### Here are the rules of this test.. you must:
+#### Follow below steps to run the application:
 ---
 
  > Install dependencies
@@ -25,4 +25,3 @@
  ```
 
 Thanks you
-
